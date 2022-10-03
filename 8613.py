@@ -1,0 +1,5 @@
+a, b = set(input().split()), set(input().split())
+a.discard(' ')
+b.discard(' ')
+c = a.intersection(b)
+print(len(c))
